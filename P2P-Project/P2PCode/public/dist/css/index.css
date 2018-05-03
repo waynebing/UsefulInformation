@@ -1,0 +1,68 @@
+body {
+  height: 1000PX;
+}
+.navbar {
+  margin-bottom: 0PX;
+}
+.navbar-inverse .navbar-header .navbar-brand {
+  font-size: 30PX;
+  padding-top: 13PX;
+  font-style: italic;
+  color: #fff;
+}
+.navbar-inverse .navbar-header .navbar-brand span {
+  font-size: 18PX;
+}
+.navbar-inverse .navbar-collapse .navbar-nav > li > a {
+  color: #fff;
+  padding-right: 30PX;
+}
+.navbar-inverse .navbar-collapse .navbar-nav > li > a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+.navbar-default {
+  height: 85PX;
+}
+.navbar-default .navbar-nav > li > a {
+  line-height: 54PX;
+  font-size: 16PX;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background: none repeat scroll 0 0 #f0f0f0;
+  color: #09d;
+}
+.navbar-default .navbar-brand {
+  padding-top: 22PX;
+}
+.container-fluid {
+  width: 95%;
+}
+.container-fluid .carousel {
+  margin: 8PX auto;
+}
+.el-main .el-feature {
+  margin-top: 30px;
+}
+.el-main .el-feature dl {
+  padding-left: 80px;
+  height: 65px;
+}
+.el-main .el-feature dl dt {
+  font-size: 18px;
+  font-weight: bold;
+}
+.el-main .el-feature dl dd {
+  color: #999;
+}
+.el-main .el-feature .el-feature-item01 {
+  background: url("images/feature01.png") no-repeat;
+}
+.el-main .el-feature .el-feature-item02 {
+  background: url("images/feature02.png") no-repeat;
+}
+.el-main .el-feature .el-feature-item03 {
+  background: url("images/feature03.png") no-repeat;
+}
+
+/*# sourceMappingURL=maps/index.css.map */

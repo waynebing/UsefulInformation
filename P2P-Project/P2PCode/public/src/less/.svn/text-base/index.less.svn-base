@@ -1,0 +1,7 @@
+@color:red;
+
+body{
+  background-color: @color;
+  font-size: 100px;
+  color: yellow;
+}
