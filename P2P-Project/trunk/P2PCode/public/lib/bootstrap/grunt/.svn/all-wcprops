@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt
+END
+.jshintrc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/.jshintrc
+END
+bs-lessdoc-parser.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/bs-lessdoc-parser.js
+END
+change-version.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/change-version.js
+END
+bs-commonjs-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/bs-commonjs-generator.js
+END
+sauce_browsers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/sauce_browsers.yml
+END
+bs-glyphicons-data-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/bs-glyphicons-data-generator.js
+END
+npm-shrinkwrap.json
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/npm-shrinkwrap.json
+END
+bs-raw-files-generator.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/bs-raw-files-generator.js
+END
+configBridge.json
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/grunt/configBridge.json
+END

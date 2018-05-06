@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P2P首页</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <!-- 图标字体样式 -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <!-- 自己的css样式 -->
+    <link rel="stylesheet" href="dist/css/min/header.min.css">
+    <link rel="stylesheet" href="dist/css/min/footer.min.css">
+    <link rel="stylesheet" href="dist/css/min/login.min.css">
+    <link rel="stylesheet" href="dist/css/min/register.min.css">
+    <!-- 自己的min格式css -->
+    <!-- <link rel="stylesheet" href="dist/css/min/index.min.css"> -->
+</head>
+<body>
+
+    <!-- 导航条1开始 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86261949</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="fa fa-home"></span>首页</a></li>
+              <li><a href="#"><span class="fa fa-registered"></span>注册</a></li>
+              <li><a href="#"><span class="fa fa-sign-in"></span>登陆</a></li>
+              <!-- 登陆成功之后的页面 -->
+              <!-- <li><a href="#">小强</a></li>
+              <li><a href="#">赶快充值</a></li>
+              <li><a href="#">注销</a></li> -->
+              <!-- 登陆成功之后的页面 -->
+              <li><a href="#"><span class="fa fa-handshake-o"></span>帮助</a></li>
+              <li id="wxTips" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='images/contract.png'/>"><a href="#"><span class="fa fa-heartbeat"></span>联系客服</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <!-- 导航条1结束 -->
+      <!-- 导航条2开始 -->
+      <nav class="navbar navbar-default">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="navbar-collapse">
+                  <h4>用户注册</h4>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+      <!-- 导航条2结束 -->
+      <!-- 正文开始 -->
+      <div class="container">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">用户注册</h3>
+          </div>
+          <div class="panel-body">
+            <!-- 表单开始 -->
+            <form class="form-horizontal">
+              <!-- 头部文字的偏移量 -->
+              <div class="container col-lg-offset-4 col-md-offset-3 col-sm-offset-3 col-xs-offset-2">
+                <p id="firstWord">请填写注册信息，点击“提交注册”即可完成注册</p>
+              </div>
+                <!-- 用户名框开始 -->
+                  <div class="form-group">
+                    <!-- 用户名框的偏移量 -->
+                    <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
+                    <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
+                      <input type="text" class="form-control" id="username" placeholder="用户名">
+                      <p>用户名为2~16位字母，数字，符号或中文</p>
+                    </div>
+                    </div>
+                  </div>
+                
+              
+                <!-- 用户名框结束 -->
+                <div class="form-group">
+                    <!-- 密码框的偏移量 -->
+                    <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
+                  <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                  <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                    <p>请填写密码</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <!-- 密码框的偏移量 -->
+                    <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
+                  <label for="inputPassword3" class="col-sm-2 control-label">确认密码</label>
+                  <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                    <p>请再次填写密码</p>
+                  </div>
+                </div>
+                </div>
+
+
+                <!-- 登陆按钮 -->
+                <div class="form-group">
+                  <!-- 登陆按钮的偏移量 -->
+                  <div class="container col-lg-offset-5 col-md-offset-4 col-sm-offset-4 col-xs-offset-3">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-success">同意协议并注册</button>
+                    <a href="">已有账号，马上登录</a>
+                  </div>
+                  <a class="btn btn-primary btn-sm col-lg-2 col-md-2 col-sm-3 col-xs-4" data-toggle="modal" data-target="#myModal" id="instructions">《使用协议说明书》</a>
+                </div>
+              </div>
+                    <!-- 模态框（Modal） -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                              </button>
+                              <h4 class="modal-title" id="myModalLabel">
+                                注册须知
+                              </h4>
+                            </div>
+                            <div class="modal-body">
+                                访问者可以张贴看法、评论和其他内容，可以发送电子卡和其他通讯，还可以提交建议、主意、评论、问题和其他信息，只要内容不违法，不包含淫秽、胁迫、诽谤、侵犯隐私、侵犯知识产权和其他有害于第三方的令人讨厌的内容，
+                                不含有病毒软件、政治活动、商业诱惑、连锁信件、巨型邮件和其他任何形式的垃圾邮件。你不得使用虚假的电子邮件地址，模仿他人或实体，或误导卡的来源和其他内容。_________网站有权（但不是职责或义务）取消或编辑这些内容，并且不定期的检查张贴的内容。
+                                如果你张贴的内容和提交的资料，除非我们说明的，你准许_________网站和其附属机构享有无例外的、独一无二的、永久性的、不可取消的和完全再次许可的权利。许可使用、再制造、修改、改编、出版、翻译、创造演绎作品和通过任何媒体向全世界展示和分发这些内容的权利。你准许_________网站和其附属机构以及再被许可人有权使用你提交的与此内容有关的名称，
+                                如果他们作出选择。你保证对你张贴的内容为你所有或享有其他控制权；保证内容的准确性；保证对你提供内容的使用不会违反该规定和不会导致对任何实体和他人的损害；保证向_________网站和其附属机构赔偿因为你提供的内容所带来的损失。_________网站有权但没有职责和义务监视、编辑和取消任何行为和内容。_________网站对你或任何第三方所张贴的内容不承担任何责任。
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">不同意
+                              </button>
+                              <button type="button" class="btn btn-success">
+                                同意
+                              </button>
+                            </div>
+                          </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                      </div>
+                      <!-- 模态框（Modal）结束 -->
+                  
+                
+                
+              
+              </form>
+            <!-- 表单结束 -->
+          </div>
+        </div>
+     </div>
+     <!-- 正文结束 -->
+     <!-- 尾部开始 -->
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                    <p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+                    <p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+                    <p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+                    <p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+                    <p><a href="#">蜀ICP备14030149号-1</a>  <a href="#">蜀公网安备510114990541</a></p>
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <p>官方微博：</p>
+					<img class="img-responsive" src="images/sina.png"/>
+					<img class="img-responsive" src="images/tecent.png"/>
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <p>官方微信：</p>
+					<img class="img-responsive" src="images/wx.jpg"/> 
+                 </div>
+             </div>
+         </div>
+     </footer>
+     <!-- 尾部结束 -->
+   
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $(function(){
+            $('#wxTips').tooltip();
+        });
+    </script>
+</body>
+</html>

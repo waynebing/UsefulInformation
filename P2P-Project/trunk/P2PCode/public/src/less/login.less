@@ -1,0 +1,71 @@
+// 登陆页面样式
+.navbar-collapse{
+    h4{
+        font-size: 20PX;
+        line-height: 64PX;
+        font-weight: bold;
+        color: #337ab7;
+    }
+}
+// 登陆框
+.container{
+    .panel{
+        margin-top: 10PX;
+        .panel-body{
+            .form-group{
+                margin-top: 10PX;
+                a{
+                    display: inline-block;
+                    margin-left: 60PX;
+                }  
+            }
+        }
+    }
+}
+
+// 表单头部文字
+.form-horizontal{
+    .container{
+        p{
+            color: #999;
+            font-size: 20PX;
+        }
+    }
+}
+
+
+
+// 媒体查询
+@media all and (max-width:768PX){
+  .form-group label{
+    display: block;
+    margin-left: 100PX;
+  }
+}
+
+@media all and (max-width:634PX){
+   .form-horizontal{
+       p{
+           width: 180PX;
+           margin-left: -53PX;
+       }
+       input{
+           width: 155PX;
+           margin-left:-26PX;
+       }
+
+    }
+    .form-group label{
+        display: block;
+        margin-left: 26PX;
+      }
+    .container .panel .panel-body .form-group a{
+        display: block;
+        margin-left: -14PX;
+        margin-top: 18PX;
+    }
+   
+  }
+
+
+

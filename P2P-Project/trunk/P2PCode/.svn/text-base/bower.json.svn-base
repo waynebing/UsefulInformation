@@ -1,0 +1,19 @@
+{
+  "name": "p2pserver",
+  "description": "",
+  "main": "",
+  "authors": [
+    "waynebing <tb493177559@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ]
+}

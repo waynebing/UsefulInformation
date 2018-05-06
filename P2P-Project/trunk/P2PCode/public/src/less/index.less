@@ -1,0 +1,106 @@
+@import url("header.less");
+@import url("footer.less");
+
+
+
+// 轮播图
+.container-fluid{
+  width: 95%;
+}
+.container-fluid .carousel{
+  margin: 8PX auto;
+}
+
+
+// 三大特色
+.feature{
+    h4{
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    p{
+      color: #999;
+    }
+    &>div{
+      background: url('../../images/feature01.png') no-repeat 0PX 4PX;
+      padding-left: 70PX;
+      margin-top: 12PX;
+    }
+    &>div:nth-of-type(2){
+      background: url('../../images/feature02.png') no-repeat 0PX 4PX;
+      padding-left: 70PX;
+    }
+    &>div:last-of-type{
+      background: url('../../images/feature03.png') no-repeat 0PX 4PX;
+      padding-left: 70PX;
+    }
+
+}
+@media all and (max-width:1200PX){
+  .feature > div{
+    margin-bottom: 20PX;
+  }
+}
+
+// 抬头和咨询
+.panel{
+  .panel-heading{
+    border-bottom: 1PX solid #e8e8e8;
+    padding: 10px 0px;
+    margin-bottom: 10PX;
+    h3{
+      border-bottom: 3PX solid #2e8ece;
+      margin-bottom: -11PX;
+      padding-bottom: 10PX;
+      font-size: 24PX;
+      color: #2e8ece;
+      font-weight: bold;
+    }
+    p{
+      margin-top: 18PX;
+    }
+  }
+  // 抬头和咨询表格
+  table{
+    tr{
+      &:hover{
+        background-color: #f5f5f5;
+      }
+    }
+    th{
+      color: #999999;
+    }
+    td{
+      border-bottom:1PX solid #e8e8e8;  
+    }
+  }
+}
+.table > tbody > tr > th{
+    border-top:0PX;
+}
+.table > tbody > tr > td{
+  line-height: 2.428571;
+}
+
+// 咨询主体内容
+.consultation{
+  line-height: 28PX;
+  .panel-body{
+    padding: 0PX;
+    li{
+      list-style: none;
+      border-bottom: 1PX dashed #999;
+      padding-top: 8PX;
+      a{
+        text-decoration: none;
+        color: #555;
+        &:hover{
+          color: #09d;
+        }
+      }
+    }
+  }
+}
+
+

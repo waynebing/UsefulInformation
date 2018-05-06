@@ -1,0 +1,93 @@
+#instructions {
+  display: block;
+  margin-top: 58PX;
+  margin-left: 15PX;
+}
+@media all and (max-width: 1200PX) {
+  #instructions {
+    display: block;
+    margin-top: 58PX;
+    margin-left: 15PX;
+  }
+}
+@media all and (max-width: 768PX) {
+  #instructions {
+    display: block;
+    margin-top: 58PX;
+    margin-left: 15PX;
+  }
+}
+@media all and (max-width: 689PX) {
+  #instructions {
+    display: block;
+    margin-top: 30PX;
+    margin-left: 15PX;
+  }
+}
+@media all and (max-width: 623PX) {
+  #instructions {
+    display: block;
+    margin-top: 30PX;
+    margin-left: -6PX;
+    width: 150PX;
+  }
+  .container .panel .panel-body .form-group a {
+    margin-left: -18PX;
+  }
+  .container .panel .panel-body .form-group button {
+    margin-left: -14PX;
+  }
+}
+@media all and (max-width: 375PX) {
+  #instructions {
+    display: block;
+    margin-top: 30PX;
+    margin-left: -6PX;
+    width: 60%;
+  }
+  .container .panel .panel-body .form-group a {
+    margin-left: -18PX;
+  }
+  .container .panel .panel-body .form-group button {
+    margin-left: -14PX;
+  }
+}
+@media all and (max-width: 320PX) {
+  #instructions {
+    display: block;
+    margin-top: 30PX;
+    margin-left: 0PX;
+    width: 131px;
+  }
+}
+.form-horizontal .form-group p {
+  font-size: 10PX;
+  margin-top: 10PX;
+}
+@media all and (max-width: 634PX) {
+  #firstWord {
+    margin-left: -20PX;
+  }
+  .form-horizontal .container p {
+    font-size: 10PX;
+    white-space: nowrap;
+    margin-left: -24PX;
+  }
+}
+#registerTips .glyphicon {
+  font-size: 30PX;
+}
+.glyphicon-ok {
+  color: lightgreen;
+}
+.glyphicon-remove,
+#count {
+  color: lightcoral;
+}
+#count {
+  font-size: 20PX;
+  padding: 0PX 5PX;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=maps/register.css.map */
