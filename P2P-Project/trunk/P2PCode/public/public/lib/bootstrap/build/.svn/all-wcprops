@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build
+END
+change-version.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/change-version.js
+END
+lint-vars.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/lint-vars.js
+END
+rollup.config.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/rollup.config.js
+END
+vnu-jar.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/vnu-jar.js
+END
+sauce_browsers.json
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/sauce_browsers.json
+END
+.htmllintrc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/.htmllintrc
+END
+generate-sri.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/generate-sri.js
+END
+workbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/workbox.js
+END
+workbox.config.json
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/workbox.config.json
+END
+saucelabs-unit-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/saucelabs-unit-test.js
+END
+.eslintrc.json
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/.eslintrc.json
+END
+gcp-key.json.enc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/gcp-key.json.enc
+END
+upload-preview.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/upload-preview.sh
+END
+ship.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/ship.sh
+END
+postcss.config.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/build/postcss.config.js
+END

@@ -74,5 +74,20 @@
     margin-left: -24PX;
   }
 }
+#registerTips .glyphicon {
+  font-size: 30PX;
+}
+.glyphicon-ok {
+  color: lightgreen;
+}
+.glyphicon-remove,
+#count {
+  color: lightcoral;
+}
+#count {
+  font-size: 20PX;
+  padding: 0PX 5PX;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=maps/register.css.map */

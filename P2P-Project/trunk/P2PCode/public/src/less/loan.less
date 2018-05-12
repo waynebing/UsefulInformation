@@ -1,0 +1,79 @@
+// 标的状态
+#searchForm{
+    .standardState{
+        margin: 20px 0px;
+        span{
+            color: #777;
+        }
+        label.active{
+            outline: none;
+        }
+        .btn-group{
+            margin-left: 62px;
+        }
+    }
+}
+#gridBody{
+    tr{
+        td{
+            font-size: 16px;
+            vertical-align: middle;
+        }
+    }
+}
+
+// 媒体查询
+@media all and (max-width:706PX){
+.table{
+    #gridHead{
+        tr{
+            .kbj{
+                display: none;
+            }
+        }
+    }
+    #gridBody{
+        tr{
+            .kbj{
+                display: none;
+                
+            }
+        }
+    }
+}
+
+}
+@media all and (max-width:414PX){
+    .table{
+        #gridHead{
+            tr{
+                .kbj{
+                    display: none;
+                }
+            }
+            th{
+                width: 17%;
+            }
+        }
+        #gridBody{
+            tr{
+                .kbj{
+                    display: none;
+                    
+                }
+            }
+        }
+    }
+    
+    }
+
+@media all and (max-width:375PX){
+    .standardState{
+        .btn-group{
+            margin-left: 62px;
+        }
+    }
+    
+}
+
+

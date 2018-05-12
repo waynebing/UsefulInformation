@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core
+END
+ready.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/ready.js
+END
+toType.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/toType.js
+END
+nodeName.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/nodeName.js
+END
+DOMEval.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/DOMEval.js
+END
+stripAndCollapse.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/stripAndCollapse.js
+END
+ready-no-deferred.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/ready-no-deferred.js
+END
+support.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/support.js
+END
+camelCase.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/camelCase.js
+END
+parseHTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/parseHTML.js
+END
+access.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/access.js
+END
+init.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/init.js
+END
+readyException.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/jquery/src/core/readyException.js
+END

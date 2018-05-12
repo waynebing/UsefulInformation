@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images
+/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images
 END
 feature01.png
 K 25
@@ -9,29 +9,17 @@ svn:wc:ra_dav:version-url
 V 70
 /svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/feature01.png
 END
-feature02.png
-K 25
-svn:wc:ra_dav:version-url
-V 70
-/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/feature02.png
-END
 shouji.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 67
 /svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/shouji.jpg
 END
-feature03.png
+feature02.png
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/feature03.png
-END
-shiming.png
-K 25
-svn:wc:ra_dav:version-url
-V 68
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/shiming.png
+/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/feature02.png
 END
 wxsm.png
 K 25
@@ -39,17 +27,29 @@ svn:wc:ra_dav:version-url
 V 65
 /svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/wxsm.png
 END
-dtg.gif
+shiming.png
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/dtg.gif
+V 68
+/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/shiming.png
+END
+feature03.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/feature03.png
 END
 youxiang.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 69
 /svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/youxiang.jpg
+END
+dtg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/dtg.gif
 END
 logo.png
 K 25
@@ -75,17 +75,17 @@ svn:wc:ra_dav:version-url
 V 69
 /svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/images/banner02.jpg
 END
-sequare.png
-K 25
-svn:wc:ra_dav:version-url
-V 68
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/sequare.png
-END
 head_icon.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 70
 /svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/head_icon.jpg
+END
+sequare.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/images/sequare.png
 END
 bank_list.png
 K 25

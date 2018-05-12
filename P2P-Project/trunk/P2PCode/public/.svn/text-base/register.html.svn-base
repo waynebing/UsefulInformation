@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
     <!-- 图标字体样式 -->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
     <!-- 自己的css样式 -->
     <link rel="stylesheet" href="dist/css/min/header.min.css">
     <link rel="stylesheet" href="dist/css/min/footer.min.css">
@@ -75,7 +76,7 @@
           </div>
           <div class="panel-body">
             <!-- 表单开始 -->
-            <form class="form-horizontal">
+            <form class="form-horizontal" id="myform">
               <!-- 头部文字的偏移量 -->
               <div class="container col-lg-offset-4 col-md-offset-3 col-sm-offset-3 col-xs-offset-2">
                 <p id="firstWord">请填写注册信息，点击“提交注册”即可完成注册</p>
@@ -86,8 +87,7 @@
                     <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
                     <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
                     <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
-                      <input type="text" class="form-control" id="username" placeholder="用户名">
-                      <p>用户名为2~16位字母，数字，符号或中文</p>
+                      <input type="text" class="form-control" id="username" placeholder="用户名" name="username">
                     </div>
                     </div>
                   </div>
@@ -99,8 +99,7 @@
                     <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
                   <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
                   <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
-                    <p>请填写密码</p>
+                    <input type="password" class="form-control" id="inputPassword1" placeholder="密码" name="inputPassword1">
                   </div>
                 </div>
                 </div>
@@ -110,8 +109,7 @@
                     <div class="container col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-3">
                   <label for="inputPassword3" class="col-sm-2 control-label">确认密码</label>
                   <div class="col-sm-10 col-lg-3 col-md-4 col-sm-5 col-xs-7">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
-                    <p>请再次填写密码</p>
+                    <input type="password" class="form-control" id="inputPassword2" placeholder="密码" name="inputPassword2">
                   </div>
                 </div>
                 </div>
@@ -123,7 +121,7 @@
                   <div class="container col-lg-offset-5 col-md-offset-4 col-sm-offset-4 col-xs-offset-3">
                   <div class="col-sm-10">
                     <button type="submit" class="btn btn-success">同意协议并注册</button>
-                    <a href="">已有账号，马上登录</a>
+                    <a href="login.html">已有账号，马上登录</a>
                   </div>
                   <a class="btn btn-primary btn-sm col-lg-2 col-md-2 col-sm-3 col-xs-4" data-toggle="modal" data-target="#myModal" id="instructions">《使用协议说明书》</a>
                 </div>
@@ -157,7 +155,26 @@
                         </div><!-- /.modal -->
                       </div>
                       <!-- 模态框（Modal）结束 -->
-                  
+              <!-- 模态框（Modal） -->
+              <!-- 注册成功的显示模态框开始 -->
+              <div class="modal fade" id="registerTips" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">
+                        用户注册
+                      </h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal -->
+              </div>
+              <!-- 模态框（Modal）结束 -->  
+              <!-- 注册成功的显示模态框结束 -->
                 
                 
               
@@ -194,6 +211,9 @@
    
     <script src="lib/jquery/dist/jquery.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="public/lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+    <!-- 自定义JS文件 -->
+    <script src="src/js/register.js"></script>
     <script>
         $(function(){
             $('#wxTips').tooltip();

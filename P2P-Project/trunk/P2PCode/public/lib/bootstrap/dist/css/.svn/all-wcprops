@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/dist/css
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/lib/bootstrap/dist/css
 END
 bootstrap-theme.css.map
 K 25
@@ -50,4 +50,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 90
 /svn/P2P-Project/!svn/ver/13/trunk/P2PCode/public/lib/bootstrap/dist/css/bootstrap.min.css
+END
+bootstrap-datetimepicker.css
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/lib/bootstrap/dist/css/bootstrap-datetimepicker.css
+END
+bootstrap-datetimepicker.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/lib/bootstrap/dist/css/bootstrap-datetimepicker.min.css
 END

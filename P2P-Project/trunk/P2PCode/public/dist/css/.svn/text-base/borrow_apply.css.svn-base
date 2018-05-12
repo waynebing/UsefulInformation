@@ -1,0 +1,39 @@
+.form-horizontal .form-group {
+  margin-top: 20PX;
+}
+.el-tip-info {
+  padding: 20px;
+  background-color: #F4F8FA;
+  border-left: 2px solid #0099DD;
+  margin-bottom: 20px;
+}
+.el-tip-info h3 {
+  color: #09d;
+}
+.el-tip-info p {
+  margin: 0 0 10px;
+}
+.pageHeader {
+  border-bottom: 1px solid #eee;
+  font-size: 20PX;
+  padding-bottom: 16PX;
+}
+.pageHeader a {
+  width: 20px;
+  height: 20px;
+  background-color: #337ab7;
+}
+.pageHeader label {
+  cursor: pointer;
+}
+.form-horizontal .form-group:last-of-type {
+  margin-top: 50px;
+}
+#btnToggle {
+  position: relative;
+  top: 6PX;
+  left: 0PX;
+  display: block;
+}
+
+/*# sourceMappingURL=maps/borrow_apply.css.map */

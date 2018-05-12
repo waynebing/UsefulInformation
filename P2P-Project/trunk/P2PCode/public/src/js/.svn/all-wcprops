@@ -1,5 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/P2P-Project/!svn/ver/14/trunk/P2PCode/public/src/js
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/src/js
+END
+register.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/src/js/register.js
+END
+memberCenter.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/js/memberCenter.js
+END
+loan.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/src/js/loan.js
+END
+borrow.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/src/js/borrow.js
+END
+checkUser.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/src/js/checkUser.js
 END

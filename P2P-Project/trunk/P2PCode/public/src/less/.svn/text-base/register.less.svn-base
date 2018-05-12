@@ -84,4 +84,18 @@
 }
 
 
-
+// 跳转登陆的模态框图标样式
+#registerTips .glyphicon{
+    font-size: 30PX;
+}
+.glyphicon-ok{
+    color: lightgreen;
+}
+.glyphicon-remove,#count{
+    color: lightcoral;
+}
+#count{
+    font-size: 20PX;
+    padding: 0PX 5PX;
+    font-weight: bold;
+}

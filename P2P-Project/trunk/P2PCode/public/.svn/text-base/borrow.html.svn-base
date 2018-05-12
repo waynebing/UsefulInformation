@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P2P首页</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <!-- 图标字体样式 -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <!-- 自己的css样式 -->
+    <link rel="stylesheet" href="dist/css/index.css">
+    <link rel="stylesheet" href="dist/css/borrow.css">
+    <!-- 自己的min格式css -->
+    <!-- <link rel="stylesheet" href="dist/css/min/index.min.css"> -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+</head>
+<body>
+
+    <!-- 导航条1开始 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-phone-alt"></span> 028-86261949</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html"><span class="fa fa-home"></span>首页</a></li>
+              <li><a href="register.html"><span class="fa fa-registered"></span>注册</a></li>
+              <li><a href="login.html"><span class="fa fa-sign-in"></span>登陆</a></li>
+              <li><a href="/users/clearCookie">注销</a></li>
+              <!-- 登陆成功之后的页面 -->
+              <!-- <li><a href="#">小强</a></li>
+              <li><a href="#">赶快充值</a></li>
+               -->
+              <!-- 登陆成功之后的页面 -->
+              <li><a href="#"><span class="fa fa-handshake-o"></span>帮助</a></li>
+              <li id="wxTips" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='images/contract.png'/>"><a href="#"><span class="fa fa-heartbeat"></span>联系客服</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <!-- 导航条1结束 -->
+      <!-- 导航条2开始 -->
+      <nav class="navbar navbar-default">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="loan.html">我要投资</a></li>
+                  <li class="active"><a href="borrow.html">我要借款</a></li>
+                  <li><a href="memberCenter.html">个人中心</a></li>
+                  <li><a href="#">新手指引</a></li>
+                  <li><a href="#">关于我们</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+      <!-- 导航条2结束 -->
+      <!-- 正文开始 -->
+      <div class="container">
+      <div class="row">
+        <!-- 一 -->
+          <div class="el-borrow-item col-sm-4">
+            <div class="el-borrow-item-title">
+              信用贷</div>
+            <div class="el-borrow-item-content">
+              <p>
+                可借金额 <i>¥ 2,000.00</i>
+              </p>
+              <a href="#" class="text-primary">申请条件</a>
+              <p class="help-block">仅限成都地区</p>
+              <ul>
+                <li>填写基本资料</li>
+                <li>身份认证</li>
+                <li>视频认证</li>
+              </ul>
+              <a href="borrow_apply.html" class="el-borrow-apply">
+                立刻申请
+              </a>
+            </div>
+          </div>
+          <!-- 二 -->
+          <div class="el-borrow-item col-sm-4">
+            <div class="el-borrow-item-title">车易贷</div>
+            <div class="el-borrow-item-content">
+              <p>
+                可借金额 <i>¥ 2,000.00</i>
+              </p>
+              <a href="#" class="text-primary">申请条件</a>
+              <p class="help-block">仅限成都地区</p>
+              <ul>
+                <li>填写基本资料</li>
+                <li>身份认证</li>
+                <li>视频认证</li>
+              </ul>
+              <a href="#" class="el-borrow-apply">
+                立刻申请
+              </a>
+            </div>
+          </div>
+          <!-- 三 -->
+          <div class="el-borrow-item col-sm-4">
+            <div class="el-borrow-item-title">
+              房易贷</div>
+            <div class="el-borrow-item-content">
+              <p>
+                可借金额 <i>¥ 12,000.00</i>
+              </p>
+              <a href="#" class="text-primary">申请条件</a>
+              <p class="help-block">仅限成都地区</p>
+              <ul>
+                <li>填写基本资料</li>
+                <li>身份认证</li>
+                <li>视频认证</li>
+              </ul>
+              <a href="#" class="el-borrow-apply">
+                立刻申请
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>  
+     <!-- 正文结束 -->
+     <!-- 尾部开始 -->
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                    <p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+                    <p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+                    <p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+                    <p>电  话： 028-86261949  / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+                    <p><a href="#">蜀ICP备14030149号-1</a>  <a href="#">蜀公网安备510114990541</a></p>
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <p>官方微博：</p>
+					<img class="img-responsive" src="images/sina.png"/>
+					<img class="img-responsive" src="images/tecent.png"/>
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <p>官方微信：</p>
+					<img class="img-responsive" src="images/wx.jpg"/> 
+                 </div>
+             </div>
+         </div>
+     </footer>
+     <!-- 尾部结束 -->
+   
+    
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $(function(){
+            $('#wxTips').tooltip();
+        });
+    </script>
+</body>
+</html>

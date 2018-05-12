@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins
+END
+_alert.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_alert.scss
+END
+_text-truncate.scss
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_text-truncate.scss
+END
+_nav-divider.scss
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_nav-divider.scss
+END
+_size.scss
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_size.scss
+END
+_box-shadow.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_box-shadow.scss
+END
+_screen-reader.scss
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_screen-reader.scss
+END
+_grid-framework.scss
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_grid-framework.scss
+END
+_gradients.scss
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_gradients.scss
+END
+_breakpoints.scss
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_breakpoints.scss
+END
+_background-variant.scss
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_background-variant.scss
+END
+_image.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_image.scss
+END
+_hover.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_hover.scss
+END
+_grid.scss
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_grid.scss
+END
+_forms.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_forms.scss
+END
+_visibility.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_visibility.scss
+END
+_pagination.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_pagination.scss
+END
+_transition.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_transition.scss
+END
+_text-emphasis.scss
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_text-emphasis.scss
+END
+_text-hide.scss
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_text-hide.scss
+END
+_table-row.scss
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_table-row.scss
+END
+_clearfix.scss
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_clearfix.scss
+END
+_caret.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_caret.scss
+END
+_buttons.scss
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_buttons.scss
+END
+_lists.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_lists.scss
+END
+_resize.scss
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_resize.scss
+END
+_border-radius.scss
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_border-radius.scss
+END
+_badge.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_badge.scss
+END
+_reset-text.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_reset-text.scss
+END
+_float.scss
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_float.scss
+END
+_list-group.scss
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/public/lib/bootstrap/scss/mixins/_list-group.scss
+END

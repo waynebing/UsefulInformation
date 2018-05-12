@@ -23,16 +23,16 @@
       color: #999;
     }
     &>div{
-      background: url('/public/images/feature01.png') no-repeat 0PX 4PX;
+      background: url('../../images/feature01.png') no-repeat 0PX 4PX;
       padding-left: 70PX;
       margin-top: 12PX;
     }
     &>div:nth-of-type(2){
-      background: url('/public/images/feature02.png') no-repeat 0PX 4PX;
-      padding-left: 70PX;
+      background: url('../../images/feature02.png') no-repeat 0PX 4PX;
+      padding-left: 70PX;                 
     }
     &>div:last-of-type{
-      background: url('/public/images/feature03.png') no-repeat 0PX 4PX;
+      background: url('../../images/feature03.png') no-repeat 0PX 4PX;
       padding-left: 70PX;
     }
 

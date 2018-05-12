@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public/src/less
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/less
+END
+borrow.less
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/less/borrow.less
 END
 footer.less
 K 25
@@ -9,17 +15,23 @@ svn:wc:ra_dav:version-url
 V 70
 /svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/src/less/footer.less
 END
+borrow_apply.less
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/less/borrow_apply.less
+END
 register.less
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/src/less/register.less
+/svn/P2P-Project/!svn/ver/17/trunk/P2PCode/public/src/less/register.less
 END
 index.less
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/src/less/index.less
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/src/less/index.less
 END
 header.less
 K 25
@@ -31,5 +43,17 @@ login.less
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/src/less/login.less
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/src/less/login.less
+END
+memberCenter.less
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/less/memberCenter.less
+END
+loan.less
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/P2P-Project/!svn/ver/19/trunk/P2PCode/public/src/less/loan.less
 END

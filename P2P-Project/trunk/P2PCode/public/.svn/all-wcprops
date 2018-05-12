@@ -1,29 +1,53 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/P2P-Project/!svn/ver/15/trunk/P2PCode/public
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public
+END
+borrow_apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/borrow_apply.html
 END
 register.html
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/register.html
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/register.html
 END
 index.html
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/index.html
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/index.html
 END
 login.html
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/login.html
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/login.html
+END
+memberCenter.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/memberCenter.html
+END
+loan.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/loan.html
+END
+borrow.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/P2P-Project/!svn/ver/20/trunk/P2PCode/public/borrow.html
 END
 template.html
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/P2P-Project/!svn/ver/16/trunk/P2PCode/public/template.html
+/svn/P2P-Project/!svn/ver/18/trunk/P2PCode/public/template.html
 END
