@@ -1,0 +1,121 @@
+@import url('./public.css');
+.login{
+    height: 100%;
+    background-color: #18B4ED;
+    margin-top: -22%;
+}
+/* 头部样式 */
+/* 图片样式 */
+.login .login-title .login-logo{
+    width: 150px;
+    margin: 80PX auto;
+}
+.login .login-title .login-logo img{
+    width: 100%;
+}
+.login .login-title h3{
+    margin-top: -55px;
+    text-align: center;
+    font-size: 38PX;
+    color: #fff;
+}
+
+/* 表单 */
+.login .login-form{
+    width: 100%;
+}
+.login .login-form p{
+    width: 70%;
+    border: 1PX solid #fff;
+    margin: 15PX auto;
+    border-radius: 10PX;
+    height: 37PX;
+    line-height: 37PX;
+    font-size: 10PX;
+    position: relative;
+}
+.login .login-form p span{
+    text-indent: 15PX;
+    font-size: 30PX;
+    color: #fff;
+    line-height: 37PX;
+}
+.login .login-form p:nth-of-type(2) span{
+    font-size: 24PX;
+    line-height: 37PX;
+}
+.login .login-form p:nth-of-type(2) input{
+    width: 74%;
+    height: 19PX;
+    padding-top: 15PX;
+    margin-top: 0PX;
+    font-size: 10PX;
+    line-height: 21PX;
+}
+/* 登陆框 */
+.login .login-form p:nth-of-type(3) input{
+    border: transparent;
+    background-color: #fff;
+    line-height: 19PX;
+    height: 36PX;
+    width: 97%;
+    font-size: 20PX;
+    padding-top: 0PX;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 5PX;
+    letter-spacing: 10PX;
+    position: absolute;
+    top: 2PX;
+    left: 2%;
+}
+
+
+.login .login-form p input{
+    margin: 5PX 5px;
+    width: 75%;
+    height: 19PX;
+    padding-top: 15PX;
+    margin-top: 0PX;
+    font-size: 10PX;
+    line-height: 20PX;
+    border: none;
+    background-color: #18B4ED;
+    outline: none;
+    color: #fff;
+    position: absolute;
+    top: 2PX;
+    left: 32PX;
+}
+
+/* 忘记密码 */
+.login .forgetPwd{
+    width: 100%;
+}
+.login .forgetPwd .forgetPwd-Word{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* 底部两个按钮 */
+.login .landing{
+    width: 100%;
+    text-align: center;
+}
+
+.login .landing a{
+    color: #fff;
+    width: 23%;
+    height: 24PX;
+    border: 1PX solid #fff;
+    border-radius: 10PX;
+    display: inline-block;
+    font-size: 17PX;
+    margin-left: 7PX;
+    font-weight: lighter;
+    text-decoration: none;
+}
+

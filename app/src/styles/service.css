@@ -1,0 +1,27 @@
+.service{
+    height: 100%;
+    background-color: #fff;
+}
+
+
+
+/* 网格样式 */
+.service h5{
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.service .service-government{
+    margin: -1.125rem 0;
+}
+
+.service .service-government .col{
+    text-align: center;
+    border-right: 1PX solid #E8E8E8;
+    border-bottom: 1PX solid #E8E8E8;
+    
+    
+}
+
+.service .service-government span{
+    display: block;
+}

@@ -1,0 +1,121 @@
+@import url('./public.css');
+.register{
+    height: 100%;
+}
+/* 头部样式 */
+.register .register-header{
+    width: 100%;
+    height: 80PX;
+    background-color: #18B4ED;
+    margin-bottom: 12PX;
+}
+
+/* 头部图标 */
+.register .register-header .register-header-icon{
+    line-height: 29PX;
+    font-size: 30PX;
+    display: inline-block;
+    width: 20%;
+}
+
+.register .register-header .register-header-icon a span{
+    color: #fff;
+    text-indent: 10PX;
+}
+
+/* 头部文字样式 */
+.register .register-header .register-header-word{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10PX;
+    height: 20PX;
+    line-height: 60PX;
+    color:#fff;
+    font-size: 20PX;
+}
+
+/* 注册表格样式 */
+.register .register-form p{
+    height: 50PX;
+    width: 100%;
+    background-color: #fff;
+    line-height: 50PX;
+    text-indent: 6PX;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1PX solid #ccc;
+    position: relative;
+}
+
+.register .register-form p input{
+    text-indent: 10PX;
+    height: 40PX;
+    border: none;
+    width: 70%;
+    outline: none;
+    position: absolute;
+    top: 6PX;
+    left: 78px;
+}
+.register .register-form p:nth-of-type(2) input{
+    text-indent: 9PX;
+}
+.register .register-form p:nth-of-type(5) input{
+    text-indent: 9PX;
+    width: 50%;
+}
+.register .register-form p:nth-of-type(5) a{
+    width: 24%;
+    height: 30px;
+    display: inline-block;
+    line-height: 30PX;
+    color: #fff;
+    background-color: #18B4ED;
+    font-weight: lighter;
+    border-radius: 6PX;
+    text-align: center;
+    margin-left: 52%;
+}
+
+.register .register-form p span{
+    display: inline-block;
+    text-indent: 9PX;
+}
+
+/* 接收协议 */
+.register .register-form p:nth-of-type(6){
+    border-bottom: none;
+}
+
+
+.register .agreement{
+    text-indent: 5PX;
+    color: #9C9C9C;
+    font-size: 18PX;
+}
+.register .agreement span{
+    padding-right: 8PX;
+    font-size: 20PX;
+}
+
+/* 提交按钮 */
+.register .register-form p:nth-of-type(7){
+    border-bottom: none;
+}
+.register .register-form p:nth-of-type(7) input{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #18B4ED;
+    color: #fff;
+    font-size: 18PX;
+    letter-spacing: 4PX;
+    margin-top: 10PX;
+    border-radius: 8PX;
+    position: absolute;
+    top: 10PX;
+    left: 26PX;
+}

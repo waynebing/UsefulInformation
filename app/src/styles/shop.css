@@ -1,0 +1,76 @@
+.shop{
+    height: 100%;
+}
+
+
+/* 头部样式 */
+.shop header{
+    height: 4.2rem;
+    width: 100%;
+    background-color: #18B4ED;
+}
+
+.shop header .shop-title{    display: inline-block;
+    line-height: 4.1rem;
+    width: 88%;
+    text-align: center;
+    text-indent: 1.6rem;
+    color: #fff;
+    font-size: 18PX;
+}
+
+.shop header .shop-icon{
+    display: inline;
+}
+
+.shop header .shop-icon a span{
+    color: #fff;
+    font-size: 16PX;
+    height: 4.2rem;
+    line-height: 4.2rem;
+}
+/* 轮播图下方小图标 */
+.shop .group{
+    border: 1PX solid#ccc;
+}
+
+.shop .group.shop-category-icon{
+    margin: -0.125rem 0;
+    border: 1PX solid#ccc;
+}
+.shop .shop-category-icon .group-body .col{
+    text-align: center;
+    font-size: 16PX;
+}
+
+
+/* 广告列表 */
+.shop .group:nth-of-type(2){
+    margin: -1.125rem 0;
+    border: 1PX solid  #ccc;
+}
+
+.shop .shop-category-adv .group-body{
+    padding: 0;
+}
+.shop .shop-category-adv .group-body .col{
+    padding: 5PX;
+    padding-right: 2PX;
+    padding-left: 2PX;
+    
+} 
+
+/* 猜你喜欢 */
+.shop h4{
+    margin-top: -23PX;
+    color: #ccc;
+}
+.shop .shop-like{
+    margin-top: -9px;
+
+}
+
+/* 底部导航 */
+nav.tabbar{
+    margin-top: -49PX;
+}

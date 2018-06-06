@@ -1,0 +1,10 @@
+.more{
+    height: 100%;
+    background-color: #fff;
+}
+.more .group{
+    margin: -1.125rem 0;
+}
+.more .group .group-body .list .item{
+    border-top: 0;
+} 

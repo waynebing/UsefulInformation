@@ -1,0 +1,51 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.mainbox{
+  height: 100%;
+}
+.mainbox .shop .shop-category-icon .group-body .col span{
+  color: black;
+}
+
+.shop{
+  background-color: #fff;
+}
+
+/* 注册页面 */
+.register{
+  background-color: #fff;
+}
+
+.register .register-form p span{
+  color: #000;
+}
+
+/* 服务页面 */
+.service .service-main .service-government span{
+  color: #222;
+}
+
+/* 活动类的样式 */
+.active{
+  color: orangered!important;
+}
