@@ -1,0 +1,46 @@
+{
+    "HotelRoom": {
+        "code": "000000",
+        "content": [
+            {
+                "roomTypeId": 45,
+                "roomTypeName": "海景房",
+                "roomTypeShortName": "HJF",
+                "roomTypeSequence": 1,
+                "roomTypeRemark": "优质好房",
+                "rooms": [
+                    {
+                        "roomId": 2,
+                        "roomNo": "666",
+                        "roomDescription": "漂亮的房间"
+                    },
+                    {
+                        "roomId": 3,
+                        "roomNo": "888",
+                        "roomDescription": "及其漂亮的房间"
+                    }
+                ]
+            },
+            {
+                "roomTypeId": 45,
+                "roomTypeName": "海景房",
+                "roomTypeShortName": "HJF",
+                "roomTypeSequence": 1,
+                "roomTypeRemark": "优质好房",
+                "rooms": [
+                    {
+                        "roomId": 2,
+                        "roomNo": "666",
+                        "roomDescription": "漂亮的房间"
+                    },
+                    {
+                        "roomId": 3,
+                        "roomNo": "888",
+                        "roomDescription": "及其漂亮的房间"
+                    }
+                ]
+            }
+        ],
+        "message": "操作成功"
+    }
+}

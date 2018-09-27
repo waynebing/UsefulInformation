@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>疯特管理平台</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/iview/2.3.2/styles/iview.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./facicon.png" type="image/x-icon">
+</head>
+
+<body>
+<div id="app"></div>
+
+<% if (htmlWebpackPlugin.options.isDevelop) { %>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js"></script>
+<% } else { %>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.min.js"></script>
+<% } %>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vuex/2.4.0/vuex.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue-router/2.7.0/vue-router.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/iview/2.3.2/iview.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    <% if (htmlWebpackPlugin.options.isDevelop) { %>
+    window.gDevEnv = true;
+    window.gBaseUrl = 'http://test.wefint.com'
+    <% } else { %>
+    window.gBaseUrl = 'https://www.wefint.com'
+    <% } %>
+</script>
+<script>
+    let scrollLeft = 0;
+    document.body.onkeydown = function(event) {
+        let hotelStatusDataViewerRightOrder = document.getElementsByClassName('hotelStatusDataViewerRightOrder')[0];
+        let ScrollBarlen = hotelStatusDataViewerRightOrder.clientWidth - hotelStatusDataViewerRightOrder.scrollLeft
+        if (event.target.nodeName === 'TEXTAREA' || event.target.nodeName === 'INPUT') return;
+        if (event.keyCode === 32) {
+            scrollLeft += 300;
+            event.preventDefault();
+            hotelStatusDataViewerRightOrder.scrollLeft = scrollLeft;
+            if (scrollLeft >= ScrollBarlen) scrollLeft = 0 - 300;
+        }
+    }
+
+    function getTipShowViewer(thisNode) {
+        $(thisNode).css({'box-shadow':'9px 5px 16px rgba(184,184,184,1)'});
+            $(thisNode).children('.orderTip').css({'display': 'block'});
+    }
+    function getTipHideViewer(thisNode) {
+        $(thisNode).css({'box-shadow':'none'})
+        $(thisNode).children('.orderTip').css({'display': 'none'});
+    }
+</script>
+</body>
+
+</html>
